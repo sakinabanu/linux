@@ -1,0 +1,30 @@
+COMPUTER SYSTEM :
+
+The computer system totally works on the Hardware and software. Every hardware understands only the binary language to do task. Therefore, software builts a program which is converted to the low level language which is binary language to do actions and share Information easily.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OPERATING SYSTEM :
+
+It is a system that coperates the complete and loads applications to run on it They are severd operating Systems like: Windows, Linux, Mac OS etc. An operating system is divide into two types :
+1) Command line
+2) Graphical User Interface (GUI)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COMMAND LINE :
+The command lie is und to work on the application and processes on a computer. This accepts only code language to progress further.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+GUI : 
+This is used in now-a-days computers as an easy option to operate computers other than command line. This builds an application into an icon in which we can operate and acess the data.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TWO WAYS AN OPERATING SYSTEM CAN WORK :
+
+1) It works as an main Operating System.
+2) It works as an sub OS that is workinng as a side OS partially inside a main OS.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
