@@ -24,38 +24,38 @@ This is used in now-a-days computers as an easy option to operate computers othe
 
 TWO WAYS AN OPERATING SYSTEM CAN WORK :
 
-1) It works as an main Operating System.
+	1) It works as an main Operating System.
 
-	_________________________________________________
-	|						|
-	|	WINDOWS IS MAIN PROCESSER WHICH		|
-	|	 RUNS OTHER PROCESSES IN IT.		|
-	|			 ____________________	|
-	|			|		     |  |
-	|			|    LINUX WORKS     |  |
-	|			|   UNDER WINDOWS    |  |
-	|			|     PROCESSOR      |	|
-	|			|      WITH WSL      |  |
-	|			|____________________|  |
-	|_______________________________________________|
+		_________________________________________________
+		|						|
+		|	WINDOWS IS MAIN PROCESSER WHICH		|
+		|	 RUNS OTHER PROCESSES IN IT.		|
+		|			 ____________________	|
+		|			|		     |  |
+		|			|    LINUX WORKS     |  |
+		|			|   UNDER WINDOWS    |  |
+		|			|     PROCESSOR      |	|
+		|			|      WITH WSL      |  |
+		|			|____________________|  |
+		|_______________________________________________|
 
 
-2) It works as an sub OS that is workinng as a side OS partially inside a main OS.
+	2) It works as an sub OS that is workinng as a side OS partially inside a main OS.
 
 	
-	 _______________________________________________________
-	| 							|
-	|   BOTH PROCESSORS WORK EQUALLY ON COMPUTER		|
-	| _________________________   _________________________ |
-	||			   | |			       ||
-	||	   WINDOWS         | | 	        LINUX 	       ||
-	||-------------------------| |-------------------------||
-	||     WORKS ON A PART     | |   WORKS ON OTHER PART   ||
-	||	  OF SYSTEM        | |	     OF SYSTEM	       ||
-	||_________________________| |_________________________||	
-	|     THEY WORK SEPERATELY LIKE DIFFERENT SYSTEMS	|
-	|              AND HAVE NO CONNECTION THERE 		|
-	|_______________________________________________________|
+		 _______________________________________________________
+		| 							|
+		|   BOTH PROCESSORS WORK EQUALLY ON COMPUTER		|
+		| _________________________   _________________________ |
+		||			   | |			       ||
+		||	   WINDOWS         | | 	        LINUX 	       ||
+		||-------------------------| |-------------------------||
+		||     WORKS ON A PART     | |   WORKS ON OTHER PART   ||
+		||	  OF SYSTEM        | |	     OF SYSTEM	       ||
+		||_________________________| |_________________________||	
+		|     THEY WORK SEPERATELY LIKE DIFFERENT SYSTEMS	|
+		|              AND HAVE NO CONNECTION THERE 		|
+		|_______________________________________________________|
 
 
 So, here we are using wsl-ubuntu server as a sub server in Windows Operating system.
