@@ -25,6 +25,43 @@ This is used in now-a-days computers as an easy option to operate computers othe
 TWO WAYS AN OPERATING SYSTEM CAN WORK :
 
 1) It works as an main Operating System.
+
+	____________________________________________
+	|											|
+	|	WINDOWS IS MAIN PROCESSER WHICH		|
+	|	 RUNS OTHER PROCESSES IN IT.			|
+	|					_______________________	|
+	|					|					     |  |
+	|					|	LINUX WORKS 	     |  |
+	|					|	UNDER WINOWS	     |  |
+	|					|	PROCESSOR  	     |	|
+	|					|	WITH WSL 		     |  |
+	|					|______________________|	|
+	|___________________________________________	|
+	
+
+
 2) It works as an sub OS that is workinng as a side OS partially inside a main OS.
+
+	
+	____________________________________________________
+	|													|
+	|   BOTH PROCESSORS WORK EQUALLY ON COMPUTER	|
+	|_________________________   _________________________|
+	||						   | |						       ||
+	||		WINDOWS		   | | 		 	LINUX 		       ||
+	||						   | |						       ||
+	||						   | | 						       ||
+	||						   | |						       ||
+	||	WORKS ON A PART 	   | |  WORKS ON OTHER PART  ||
+	||		OF SYSTEM		   | |	            OF SYSTEM	       ||
+	||________________________ | |________________________ ||
+	|												        |
+	|   THEY WORK SEPERATELY LIKE DIFFERENT SYSTEMS	|												|    AND HAVE NO CONNECTION THERE 					|
+	|___________________________________________________	|
+	
+
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
