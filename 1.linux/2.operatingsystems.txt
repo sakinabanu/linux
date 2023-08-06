@@ -56,12 +56,12 @@ TWO WAYS AN OPERATING SYSTEM CAN WORK :
 	|     THEY WORK SEPERATELY LIKE DIFFERENT SYSTEMS	|
 	|              AND HAVE NO CONNECTION THERE 		|
 	|_______________________________________________________|
-	
+
 
 So, here we are using wsl-ubuntu server as a sub server in Windows Operating system.
 Later, we will use virtual machine to run two servers, on a single device and reinstall an ununtu server as a complete processor thet runs on system ussing half space of device.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 UBUNTU :
 
@@ -72,4 +72,4 @@ Ubuntu is a linux distribution based on Debian and composed mostly of free and o
 
 It is used for cloud computing, servers, desktop, and Internet of Things (IOT) devices.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
