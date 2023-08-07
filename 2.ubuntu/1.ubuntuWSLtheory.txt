@@ -1,0 +1,19 @@
+UBUNTU :
+
+Ubuntu is an linux distribution based on Debian and composed mostly of free and open-source software. Officially, it is released in three editions:
+• Desktop
+• Server
+• Core for Internet of things devices and robots. 
+
+It is used for Cloud Computing , servers, desktop, and internet of things (IOT) devices.
+All of the editions can run on a computer alone, or in a virtual machine. 
+Ubuntu is a popular operating system for cloud computing, with support for OpenStack.
+
+Ubuntu is released every six months, with long-term support (LTS) releases every two years.
+As of April 2023, the most-recent release is 23.04 ("Lunar Lobster"), and the current long-term support release is 22.04 ("Jammy Jellyfish").
+
+Ubuntu is developed by the British company Canonical, and a community of other developers, under a meritocratic governance model.
+
+Ubuntu is named after the Nguni philosophy of ubuntu, which Canonical indicates means "humanity to others" with a connotation of "I am what I am because of who we all are".
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
