@@ -1,4 +1,4 @@
-ALL COMMANDS TO BE REMEMBERED:
+UBUNTU COMMANDS :
 
  sudo su 
 	{To give permissions and let a user to work as a root user always used to enter into root}
