@@ -1,0 +1,27 @@
+UBUNTU WSL SETUP :
+
+Remove Unwanted Softwares / Clean PC
+Delete Temp / Prefetch/ %temp% Files always when devices works slow.
+WSL Install 
+To install Windows Subsystem for Linux ( Ubuntu, Fedora, Kali ) on Windows 10
+The steps are:
+Go to Windows Terminal Store
+Install Terminal Power Shell 
+Open Start on Windows 10.
+Search for Power Shell, and select the Run as administrator option.
+Type the following commandone after the other to install the WSL on Windows 10 and press Enter:
+	dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+	dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+Then go to browser and Download this file : 
+	https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+Then Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+	wsl --install
+	wsl --install -d Ubuntu-20.04
+	wsl --set-default-version 2
+	wsl --list --verbose
+
+Later add a username and password :
+username:suhail
+password:suhail
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
