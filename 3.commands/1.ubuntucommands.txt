@@ -1,6 +1,6 @@
 UBUNTU COMMANDS :
 
- sudo su 
+sudo su 
 	{To give permissions and let a user to work as a root user always used to enter into root}
 
 ctrl+D (or) exit
@@ -59,7 +59,7 @@ mv folder1/ folder2/
 	{Replace a folder into another folder}
 
 mv location/location1/location2/folder/ /location/location2/location3/folder
- 	{Replace a folder from another location to desired location}
+	{Replace a folder from another location to desired location}
 
 .file.txt (or) .folder
 	{"." before a file or folder indicates that it is a hidden file or folder}
@@ -128,6 +128,167 @@ figlet message
 		| | | | | |  __/\__ \__ \ (_| | (_| |  __/
 		|_| |_| |_|\___||___/___/\__,_|\__, |\___|
 		                               |___/
+
+python3 -d
+	{It opens python coding platform in the terminal which is the updated version.}
+
+python3 -v (or) python3 --version
+	{It shows which version of python we are using in the device.}
+
+sudo apt update && sudo apt upgrade
+	{These two are used to modifiy the system, upgrade and update it for easy installation.}
+		[NOTE : These can be frequently done to upgrade and update the device.]
+
+sudo apt install lolcat 
+	{It install lolcat package.}
+
+figlet message | lolcat
+	{It prints the message in color and changes the color after pressing enter everytime.}
+
+
+install net-tools
+	{It installs tools for ubuntu network configuration and connections.}
+
+ifconfig
+	{It give the network configuration of the ubuntu, it is one of the net-tool.}
+
+kill processid
+	{It is to kill a running process we use this command and kill it with process id.}
+
+kill option processid
+	{OPTION : It is to select which action to be taken to kill a process by killing the id.}
+		 ______________________________________________
+		|											     |
+		|	WAYS OF KILLING :						     |
+		|											     |
+		|	kill-1 processid 							     |
+		|		{It is used to restart the process.}			     |
+		|											     |
+		|	kill-2 processid 							     |
+		|		{interrupt from keyboard like ctrl + c.}		     |
+		|											     |
+		|	kill-9 processid 							     |
+		|		{It forcefully terminates the process.}		     |
+		|											     |
+		|	kill-15 processid 							     |
+		|		{It kills the process gracefully.}			     |
+		|______________________________________________|
+
+ 
+ps -ef
+	{It is used to check which process we are in.}
+
+&& 
+	{It is used to add another command side wise to runn both together.}
+		[NOTE : This is also used to run other commands while running server together.]
+
+ln -s mainfile.txt newfile.txt
+	{It  makes a new file(this file must not be already created) and creates a softlink to both the files and do all changes in both of them in same way, but here if the main file is deleted the data of newfile will also be deleted.} 
+
+ln mainfile.txt newfile.txt
+	{It  makes a new file(this file must not be already created) and creates a hardlink to both the files and do all changes in both of them in same way, but here if the main file is deleted the data of newfile will not be deleted.} 
+
+ls -l file.txt (or) ls -l folder
+	{It give details of the permissions for the file or folder.}
+
+sudo chmod  777 file.sh  (or) sudo chmod  777 folder
+	{It give all permissions to the user to access the data of files and folders in all ways.}
+
+ping website.com
+[PING : Packet Internet Grofer]
+	{This checks the website is working or not}
+
+wget -m website.com
+	{If you like a website you can get it details and download files even if server is not logged.}
+
+explore.exe
+	{takes the user to a GUI terminal.}
+
+zip -r file.zip
+	{ It adds files to a zip file. }
+
+unzip file.zip 
+	{It unzips the files }  
+python3 -d
+	{It opens python coding platform in the terminal which is the updated version.}
+
+python3 -v (or) python3 --version
+	{It shows which version of python we are using in the device.}
+
+sudo apt update && sudo apt upgrade
+	{These two are used to modifiy the system, upgrade and update it for easy installation.}
+		[NOTE : These can be frequently done to upgrade and update the device.]
+
+sudo apt install lolcat 
+	{It install lolcat package.}
+
+figlet message | lolcat
+	{It prints the message in color and changes the color after pressing enter everytime.}
+
+
+install net-tools
+	{It installs tools for ubuntu network configuration and connections.}
+
+ifconfig
+	{It give the network configuration of the ubuntu, it is one of the net-tool.}
+
+kill processid
+	{It is to kill a running process we use this command and kill it with process id.}
+
+kill option processid
+	{OPTION : It is to select which action to be taken to kill a process by killing the id.}
+		 ______________________________________________
+		|											     |
+		|	WAYS OF KILLING :						     |
+		|											     |
+		|	kill-1 processid 							     |
+		|		{It is used to restart the process.}			     |
+		|											     |
+		|	kill-2 processid 							     |
+		|		{interrupt from keyboard like ctrl + c.}		     |
+		|											     |
+		|	kill-9 processid 							     |
+		|		{It forcefully terminates the process.}		     |
+		|											     |
+		|	kill-15 processid 							     |
+		|		{It kills the process gracefully.}			     |
+		|______________________________________________|
+
+ 
+ps -ef
+	{It is used to check which process we are in.}
+
+&& 
+	{It is used to add another command side wise to runn both together.}
+		[NOTE : This is also used to run other commands while running server together.]
+
+ln -s mainfile.txt newfile.txt
+	{It  makes a new file(this file must not be already created) and creates a softlink to both the files and do all changes in both of them in same way, but here if the main file is deleted the data of newfile will also be deleted.} 
+
+ln mainfile.txt newfile.txt
+	{It  makes a new file(this file must not be already created) and creates a hardlink to both the files and do all changes in both of them in same way, but here if the main file is deleted the data of newfile will not be deleted.} 
+
+ls -l file.txt (or) ls -l folder
+	{It give details of the permissions for the file or folder.}
+
+sudo chmod  777 file.sh  (or) sudo chmod  777 folder
+	{It give all permissions to the user to access the data of files and folders in all ways.}
+
+ping website.com
+[PING : Packet Internet Grofer]
+	{This checks the website is working or not}
+
+wget -m website.com
+	{If you like a website you can get it details and download files even if server is not logged.}
+
+explore.exe
+	{takes the user to a GUI terminal.}
+
+zip -r file.zip
+	{ It adds files to a zip file. }
+
+unzip file.zip 
+	{It unzips the files }  
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
