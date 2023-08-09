@@ -332,6 +332,9 @@ aafire
 aafire | lolcat 
 	{it represents data  in a colorful fire form.}
 
+sudo timedatectl set-timezone Asia/Kolkata 
+	{It converts time to IST.}
+
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
