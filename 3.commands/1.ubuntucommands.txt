@@ -271,11 +271,14 @@ ln mainfile.txt newfile.txt
 ls -l file.txt (or) ls -l folder
 	{It give details of the permissions for the file or folder.}
 
+sudo chmod 777 /
+	{It gives all permissions to each file and folder in the folder.}
+
 sudo chmod  777 file.sh  (or) sudo chmod  777 folder
 	{It give all permissions to the user to access the data of files and folders in all ways.}
 
 ping website.com
-[PING : Packet Internet Grofer]
+ [PING : Packet Internet Grofer]
 	{This checks the website is working or not}
 
 wget -m website.com
@@ -289,6 +292,45 @@ zip -r file.zip
 
 unzip file.zip 
 	{It unzips the files }  
+
+bash script.sh
+	{It runs the commands in the given script file.}
+
+crontab -e
+	{It runs the cronjob time at the assigned setup and does the task at the given time.}
+
+sudo service cron start 
+	{It starts the cron setup.}
+
+sudo service cron restart 
+	{It restarts the cron setup.}
+
+sudo service cron stop
+	{It stops the cron setup.}
+
+crontab -r 
+	{It deletes the cronjob.}
+
+sudo apt install sl
+	{installs package}
+
+sl
+	{It shows an engine moving with data packages.}
+
+sudo apt install cmatrix 
+	{install package}
+
+cmatrix
+	{It presents data in a rainfall. }
+
+sudo apt install libaa -bin 
+	{This package havve multiple styles of presenting data like aafire, aainfo etc.}
+
+aafire 
+	{It represents data in fire form.}
+
+aafire | lolcat 
+	{it represents data  in a colorful fire form.}
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
