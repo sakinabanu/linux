@@ -1,0 +1,18 @@
+SOFTLINK :
+
+Softlinks are the links which creates the same data in different linked files, it adds the data of original file to the other files. If the original file is deleted then all linked files will also be deleted.
+
+SETUP :
+
+mkdir folder
+touch originalfile.txt
+nano originalfile.txt & add data in it.
+now link the file with :
+	[ ln -s originalfile.txt newfile.txt ]
+[NOTE : new file must not be created before] 
+now check the dataof original file is saved in new file :
+	[ cat originalfile.txt ]
+	[ cat newfile.txt ]
+[NOTE : If original file is deleted then new file which is linked will also be deleted.]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
