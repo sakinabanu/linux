@@ -48,6 +48,7 @@ rm -rf folder1 folder2 folder3 foldern (or) rm -rf file1.txt file2.txt file3.txt
 
 rm -rf *
 	{Deletes all folder and files in present location}
+[NOTE : Never delete all files when you are in root or never delete root file because it can delete files that are necessary for the device to work also it can damage the life of device and make it useless. ]
 
 clear (or) ctrl+L
 	{Clears the screen}
