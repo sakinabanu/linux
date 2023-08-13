@@ -1,0 +1,10 @@
+CURL :
+
+Curl is a versitile tool in linux which is used to make request like HTTP, HTTPs, FTP, SCP & SFTP. 
+Also curl works on windows.
+Curl is a one-to-one client-server tool which makes request to server ones and then waits for response then give another request.
+It doesn't download & request testing tools from client to server.
+	 ________________________
+	|			 |
+	|   curl website.com	 |
+	|________________________|

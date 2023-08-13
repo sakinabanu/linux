@@ -1,0 +1,9 @@
+WGET - M :
+
+It is a path for server to download another website data.
+It downloads data even when servers are down.
+If you like a website you can get it details and download the files even if server is not logged.
+	 ________________________
+	|			 |
+	|  wget -m website.com	 |
+	|________________________|

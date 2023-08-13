@@ -1,0 +1,10 @@
+PING :
+
+It stands for Packet Internet Grofer.
+It is a client-server model. It requests and gets responses continously if data running is stopped then it means the server is down.
+It checks the website is working or not.
+	 ________________________
+	|			 |
+	|   ping website.com	 |
+	|________________________|
+
