@@ -1,22 +1,87 @@
+PERMISSIONS :
 
 Permissins are given to every folder and file for a user to read , write and execute. If a normal user have all permissions, it gives a normal user the access to do everything.the access values ranges from 000 to 777. Where positions of no. have different access to every one like 1st position is for users, 2nd position is for groups & 3rd position is for others
 
-        				0 - 7			0 - 7			0 - 7
-			                 __		         __		         __
-  			            
-   				       USER	     GROUP	     OTHERS
+				0 - 7			0 - 7			0 - 7
+			         ___		         ___		         ___
+			            
+				USER			GROUP			OTHERS
 
 These there digits shows the athority of people who can access the data and also in what possibilities. So, every no. is converted to binary no., like '777' gives all permissions to the file because binary of 7 = 111. So, 777 is used to give all permissions to the file and folder.
 
+				U			G			O
+
+				|			|			|
 
 				7			7			7
 			
-			     /  |  \		     /  |  \	 	     /  |  \
+			     /  |  \		     /  |  \		     /  |  \
 			
-			  1   1   1   	  1   1   1		  1   1   1
+			    1   1   1		    1   1   1		    1   1   1
 			
-			  |	|    |		  |	|    |		  |	|    |
+			    |	|   |		    |	|   |		    |	|   |
 			 
-			 R  W  E 		  R  W  E 		  R  W  E
+			    R   W   E		    R   W   E		    R   W   E
 
-Also, 000 states that there is no permission is given for any file or foler to be accessed by others.
+= -rwe-rwe-rwe-
+	{ Here, system represent the permissions aloted to the user, group & others. }
+
+			-	rwe	     -	      rwe        -        rwe        -
+			        ---		      ---		  ---
+				 |		       |	           |
+
+			       USER	             GROUP		 OTHER
+
+Also, 000 states that there is no permission given for any file or folder to be accessed by anyone.
+
+Example : 604 
+		
+		Binary no.'s of	6 = 110 , 0 = 000 , 4 = 100.
+			
+				U			G			O
+
+			        |			|		        |
+
+			        6		        0			4
+
+			     /  |  \		     /  |  \		     /  |  \
+	
+			    1   1   0	            0   0   0	            1   0   0
+		
+			    |   |   |		    |   |   |		    |   |   |
+
+			    R   W   E		    R   W   E		    R   W   E
+
+= -rw------r---
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FOR CHECKING THE PERMISSIONS GIVEN TO THE CONTENT :
+
+ls -l  folder(or) ls -l file.txt
+	{Details of permissions given to a particular files or folder.}
+
+Example :
+
+	-rw-----r-- 1 sakina sakina 56 jul 20 15:25 READme.md
+
+		-rw-----r--	=  permissions to the content
+		1		=  links to the content
+		sakina		=  home folder or head folder
+		sakina		=  group owner of the folder or if no group athorities then by default it will be the home user
+		56		=  memory assigned to the content
+		jul 20		=  date
+		15:25		=  time last edited
+		READme.md	=  file or dir name
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TO GIVE THE PERMISSIONS TO A FILE OR FOLDER :
+
+sudo chmod 777 /
+	{This gives all permissions to access each folder in all possible ways.}
+
+sudo chmod 777 file.sh
+	{This gives permission to access the data in all ways. " sudo chmod " is used for permissions and 777 gives all permissions to the user to edit the content.}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
