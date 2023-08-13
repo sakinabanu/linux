@@ -1,0 +1,22 @@
+
+Permissins are given to every folder and file for a user to read , write and execute. If a normal user have all permissions, it gives a normal user the access to do everything.the access values ranges from 000 to 777. Where positions of no. have different access to every one like 1st position is for users, 2nd position is for groups & 3rd position is for others
+
+        				0 - 7			0 - 7			0 - 7
+			                 __		         __		         __
+  			            
+   				       USER	     GROUP	     OTHERS
+
+These there digits shows the athority of people who can access the data and also in what possibilities. So, every no. is converted to binary no., like '777' gives all permissions to the file because binary of 7 = 111. So, 777 is used to give all permissions to the file and folder.
+
+
+				7			7			7
+			
+			     /  |  \		     /  |  \	 	     /  |  \
+			
+			  1   1   1   	  1   1   1		  1   1   1
+			
+			  |	|    |		  |	|    |		  |	|    |
+			 
+			 R  W  E 		  R  W  E 		  R  W  E
+
+Also, 000 states that there is no permission is given for any file or foler to be accessed by others.
